@@ -3,9 +3,7 @@ package cn.liuawen;
 import java.util.concurrent.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
-/**
- * Created by nowcoder on 2016/7/23.
- */
+
 
 class MyThread extends Thread {
     private int tid;

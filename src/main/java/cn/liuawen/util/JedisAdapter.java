@@ -11,7 +11,8 @@ import redis.clients.jedis.*;
 import java.util.List;
 
 /**
- * Created by nowcoder on 2016/7/13.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
  */
 @Service
 public class JedisAdapter implements InitializingBean {

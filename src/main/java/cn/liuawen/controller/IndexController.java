@@ -89,6 +89,7 @@ public class IndexController {
         sb.append("getQueryString:" + request.getQueryString() + "<br>");
         sb.append("getRequestURI:" + request.getRequestURI() + "<br>");
 
+        //StringBuilder -> String
         return sb.toString();
 
     }
@@ -114,9 +115,10 @@ public class IndexController {
         }
         return red;*/
         session.setAttribute("msg", "Jump from redirect.");
+        //跳转
         return "redirect:/";
     }
-
+    //
     @RequestMapping("/admin")
     @ResponseBody
     public String admin(@RequestParam(value = "key", required = false) String key) {

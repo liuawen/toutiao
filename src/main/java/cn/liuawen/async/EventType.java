@@ -1,7 +1,8 @@
 package cn.liuawen.async;
 
 /**
- * Created by nowcoder on 2016/7/16.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
  */
 public enum EventType {
     LIKE(0),

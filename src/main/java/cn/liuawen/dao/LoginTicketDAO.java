@@ -4,7 +4,8 @@ import cn.liuawen.model.LoginTicket;
 import org.apache.ibatis.annotations.*;
 
 /**
- * Created by nowcoder on 2016/7/2.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
  */
 @Mapper
 public interface LoginTicketDAO {

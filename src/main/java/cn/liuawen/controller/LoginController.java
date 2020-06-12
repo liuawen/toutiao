@@ -15,9 +15,15 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
-
 /**
- * Created by nowcoder on 2016/7/2.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
+ * 登陆 注册 退出
+ * 注册
+ * 用户名合法检测 长度 敏感词 重复 特殊字符 HTML
+ * 密码长度要求
+ * 密码salt加密 密码强度检测 md5库
+ * 用户邮件/短信激活
  */
 @Controller
 public class LoginController {

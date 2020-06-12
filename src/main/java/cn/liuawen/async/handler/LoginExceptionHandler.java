@@ -12,7 +12,8 @@ import org.springframework.stereotype.Component;
 import java.util.*;
 
 /**
- * Created by nowcoder on 2016/7/16.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
  */
 @Component
 public class LoginExceptionHandler implements EventHandler {

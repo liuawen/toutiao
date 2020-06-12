@@ -17,7 +17,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by nowcoder on 2016/7/2.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-13
  */
 @Controller
 public class HomeController {
@@ -40,6 +41,7 @@ public class HomeController {
         List<News> newsList = newsService.getLatestNews(userId, offset, limit);
         int localUserId = hostHolder.getUser() != null ? hostHolder.getUser().getId() : 0;
 //        List<ViewObject> vos = new ArrayList<>();
+        //ViewObject
         List<ViewObject> vos = new ArrayList<>();
         for (News news : newsList) {
             ViewObject vo = new ViewObject();
@@ -58,6 +60,7 @@ public class HomeController {
     @RequestMapping(path = {"/", "/index"}, method = {RequestMethod.GET, RequestMethod.POST})
     public String index(Model model,
                         @RequestParam(value = "pop", defaultValue = "0") int pop) {
+        //默认 0 0 10  读10个新闻
         model.addAttribute("vos", getNews(0, 0, 10));
         if (hostHolder.getUser() != null) {
             pop = 0;

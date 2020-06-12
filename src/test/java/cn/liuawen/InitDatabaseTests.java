@@ -20,6 +20,7 @@ import java.util.Random;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @SpringApplicationConfiguration(classes = ToutiaoApplication.class)
+//跑之前 执行一下
 @Sql("/init-schema.sql")
 public class InitDatabaseTests {
     @Autowired

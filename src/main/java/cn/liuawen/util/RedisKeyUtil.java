@@ -1,7 +1,8 @@
 package cn.liuawen.util;
 
 /**
- * Created by nowcoder on 2016/7/13.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
  */
 public class RedisKeyUtil {
     private static String SPLIT = ":";

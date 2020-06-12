@@ -11,7 +11,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Created by nowcoder on 2016/7/3.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-07-11
  */
 @Component
 public class LoginRequiredInterceptor implements HandlerInterceptor {

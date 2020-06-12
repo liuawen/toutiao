@@ -3,7 +3,8 @@ package cn.liuawen.async;
 import java.util.List;
 
 /**
- * Created by nowcoder on 2016/7/16.
+ * @author : Liu Awen Email:willowawen@gmail.com
+ * @create : 2018-06-11
  */
 public interface EventHandler {
     void doHandle(EventModel model);

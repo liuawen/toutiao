@@ -33,7 +33,7 @@ User:$!{user.getName()}
 #直接包含起来
 Include:  #include("header.vm") <br>
 Parse:#parse("header.vm")
-
+#写个函数
 #macro (render_color, $color, $index)
 Color By Macro $index, $color
 #end
@@ -45,7 +45,8 @@ Color By Macro $index, $color
 #set($hello = "hello")
 #set($hworld1 = "$!{hello} world")
 #set($hworld2 = '$!{hello} world')
-
+#双引号才会模板解析
+#单引号不解析直接显示
 hworld1:$hworld1
 hworld2:$hworld2
 
